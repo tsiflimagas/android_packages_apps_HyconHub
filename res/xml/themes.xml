@@ -117,6 +117,15 @@
             android:summary="@string/qs_bg_use_new_tint_summary"
             android:defaultValue="false" />
 
+    <!-- Notification background opacity -->
+     <com.android.settings.custom.preference.SystemSettingSeekBarPreference
+            android:key="notification_bg_alpha"
+            android:title="@string/notification_alpha_title"
+            android:defaultValue="255"
+            android:max="255"
+            settings:min="0"
+            settings:units="" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
